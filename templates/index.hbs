@@ -1,0 +1,11 @@
+.{{namespace}} {
+    background-repeat: no-repeat;
+    background-size: {{width}}px {{height}}px;
+}
+
+{{#each icons}}
+.{{../namespace}}-{{this.name}} {
+    background-position: -{{this.position}}px 0px;
+}
+{{/each}}
+
