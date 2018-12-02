@@ -1,0 +1,16 @@
+{
+    "name": "mini-png-sprite",
+    "description": "Mini PNG sprite generator",
+    "version": "0.0.1",
+    "private": false,
+    "repository": "https://github.com/jmjuanes/mini-png-sprite",
+    "author": "Josemi Juanes",
+    "bin": {
+        "pngsprite": "./cli.js"
+    },
+    "dependencies": {
+        "pngjs": "^3.3.3",
+        "handlebars": "^4.0.12",
+        "get-args": "^2.0.0"
+    }
+}
