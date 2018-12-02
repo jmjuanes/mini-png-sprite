@@ -8,6 +8,7 @@
     "bin": {
         "pngsprite": "./cli.js"
     },
+    "main": "index.js",
     "dependencies": {
         "pngjs": "^3.3.3",
         "handlebars": "^4.0.12",
