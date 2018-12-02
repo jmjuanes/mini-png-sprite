@@ -1,7 +1,7 @@
 {
     "name": "mini-png-sprite",
     "description": "Mini PNG sprite generator",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "private": false,
     "repository": "https://github.com/jmjuanes/mini-png-sprite",
     "author": "Josemi Juanes",
