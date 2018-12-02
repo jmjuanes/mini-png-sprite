@@ -78,7 +78,7 @@ Sprite.prototype.generateCSS = function (options, callback) {
     }
     //Parse the template path
     if (typeof options.template !== "string") {
-        options.template = path.join(__dirname, "templates", "index.css");
+        options.template = path.join(__dirname, "templates", "index.hbs");
     }
     //Read the template file
     return fs.readFile(options.template, "utf8", function (error, cssTemplate) {
